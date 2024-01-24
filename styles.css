@@ -38,7 +38,6 @@ body {
 .nav-links {
   margin-left: 20px;
   align-self: center;
-  font-size: 1rem;
 }
 
 .nav-links a {
@@ -49,7 +48,6 @@ body {
 
 .login-button {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
   margin-right: 20px;
   width: 80px;
   height: 30px;
@@ -59,17 +57,23 @@ body {
   border-style: none;
 }
 
-/** Slideshow (ON HOLD) **/
+/** Slideshow (ANIMATIONS REMOVED/ON HOLD). This section will still require styling for a search bar **/
 
 .slides-container {
   display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
   width: 100%;
   height: 500px;
   max-width: 100%;
   overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 
 .slide {
+  z-index: 1;
   min-width: 100%;
   height: 100%;
 }
@@ -79,3 +83,39 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.content-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: -120px;
+}
+
+.find {
+  color: white;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.searchbar {
+  width: 100%;
+  max-width: 500px; 
+  height: 45px;
+  border-radius: 50px;
+  border-style: none;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  outline: none;
+}
+
+.explore, a {
+  color: white;
+  margin-top: 20px;
+}
+
