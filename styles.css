@@ -141,10 +141,13 @@ body {
 .faves-title h2 {
   color: #283618;
   margin: 0; 
+  font-weight: 500;
+  font-size: 2em;
+
 }
 
 .faves-title a {
-  color: #283618; /* Your desired color */
+  color: #283618;
 }
 
 .cards-container {
@@ -165,3 +168,30 @@ body {
   object-fit: cover;
   margin: 10px;
 }
+
+.faves-card p {
+  margin: 10px;
+  color: #283618;
+}
+
+.hike-name {
+  font-weight: bold;
+}
+
+
+/** Footer **/
+
+footer {
+  background-color: #142900;
+  color: white;
+  font-size: 12px;
+  
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+
