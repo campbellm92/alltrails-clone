@@ -17,3 +17,7 @@ It will be a single-scrolling page with the following elements (in chronological
 
 24/01/24:
 - Wanted to create a slideshow under the navbar, but it's too complicated for now
+- TO DO
+    - figure out how to make slideshow
+    - figure out how to add a magnifying glass to search bar
+    - add a small star symbol next to the ratings in the favourites section
