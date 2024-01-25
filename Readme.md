@@ -21,3 +21,12 @@ It will be a single-scrolling page with the following elements (in chronological
     - figure out how to make slideshow
     - figure out how to add a magnifying glass to search bar
     - add a small star symbol next to the ratings in the favourites section
+
+
+25/01/24
+- Had to do a lot of image resizing so that the page doesn't take too long to load. Seems fine now.
+- For hero elements, a width of 1920 px seems to work well
+- Cards/blog cards - 800px
+- Wanted to create an effect whereby images focus/zoom in a little bit without popping out of their containers. Bit hard so shelving for now.
+- Made a start on the "Guides" section, but having trouble with image sizing. Need to revisit this
+
