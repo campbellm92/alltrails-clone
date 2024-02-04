@@ -181,6 +181,7 @@ body {
 /** Guides section **/
 
 .guides-section {
+  z-index: 1;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -189,6 +190,7 @@ body {
   flex-direction: column;
   height: auto;
   position: relative;
+  
 }
 
 .guides-image {
@@ -208,10 +210,35 @@ body {
 
 }
 
+.guides-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0;
+  margin: 100px;
+  margin-top: -120px;
+}
 
+.guides-head {
+  color: white;
+  font-size: 2.5rem;
 
+}
 
+.guides-head-scroller {
+  color: rgba(255, 255, 255, 0.722);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
 
+.guides-info {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
 
 
 /** Footer **/
